@@ -34,7 +34,7 @@ function createFiles(name) {
       Object.entries(files).forEach(([type, fileName]) => {
         writeFile(fileName, templates[type](_name));
       });
-      console.log(🚀 Happy Hacking ! 🚀');
+      console.log('🚀 Happy Hacking ! 🚀');
     } else {
       console.log(`⚠️Component with name ${_name} already exists!`);
     }

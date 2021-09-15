@@ -26,5 +26,6 @@
   "homepage": "https://github.com/idhruvs/reactjs-templify#readme",
   "dependencies": {
     "commander": "^8.2.0"
-  }
+  },
+  "devDependencies": {}
 }
