@@ -1,0 +1,30 @@
+{
+  "name": "reactjs-templify",
+  "version": "1.0.0",
+  "description": "Creat React App Utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reactjs-templify": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idhruvs/reactjs-templify.git"
+  },
+  "keywords": [
+    "CRA",
+    "Utils",
+    "React"
+  ],
+  "author": "Dhruv Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idhruvs/reactjs-templify/issues"
+  },
+  "homepage": "https://github.com/idhruvs/reactjs-templify#readme",
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
+}
