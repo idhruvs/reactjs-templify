@@ -1,10 +1,12 @@
 {
   "name": "reactjs-templify",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Creat React App Utils",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:patch": "standard-version --pre-release",
+    "release:minor": "standard-version --release-as minor"
   },
   "bin": {
     "reactjs-templify": "index.js"
@@ -27,5 +29,7 @@
   "dependencies": {
     "commander": "^8.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard-version": "^9.3.1"
+  }
 }
