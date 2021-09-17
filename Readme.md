@@ -1,6 +1,8 @@
-# Create React App Util
+# Reactjs-Templify
 
-The `reactjs-templify` moduile allows you to create component templates in a create-react-app javascript project.
+<a href="https://nodei.co/npm/reactjs-templify/"><img src="https://nodei.co/npm/reactjs-templify.png"></a>
+
+The `reactjs-templify` moduile allows you to create UI Component templates in a create-react-app javascript project. The templates are created in the `/src/components` folder.
 
 ### Usage
 
